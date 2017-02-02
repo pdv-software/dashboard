@@ -27,6 +27,12 @@ function _Tr(key)
 //START
 // designer.js
 LANG_JS["Changed, press to save"] = '<?php echo addslashes(_("Changed, press to save")); ?>';
+LANG_JS["Height"] = '<?php echo addslashes(_("Height")); ?>';
+LANG_JS["Choose height unit"] = '<?php echo addslashes(_("Choose height unit")); ?>';
+LANG_JS["Width"]  = '<?php echo addslashes(_("Width")); ?>';
+LANG_JS["Choose width unit"]  = '<?php echo addslashes(_("Choose width unit")); ?>';
+LANG_JS["Pixels"] = '<?php echo addslashes(_("Pixels")); ?>';
+LANG_JS["Percentage"] = '<?php echo addslashes(_("Percentage")); ?>';
 
 // bar_render.js
 LANG_JS["Colour"] = '<?php echo addslashes(_("Colour")); ?>';
@@ -35,14 +41,18 @@ LANG_JS["Feed"] = '<?php echo addslashes(_("Feed")); ?>';
 LANG_JS["Feed value"] = '<?php echo addslashes(_("Feed value")); ?>';
 LANG_JS["Graduations"] = '<?php echo addslashes(_("Graduations")); ?>';
 LANG_JS["How many graduation lines to draw (only relevant if graduations are on)"] = '<?php echo addslashes(_("How many graduation lines to draw (only relevant if graduations are on)")); ?>';
+LANG_JS["Min value"] = '<?php echo addslashes(_("Min value")); ?>';
+LANG_JS["Min value to show"] = '<?php echo addslashes(_("Min value to show")); ?>';
 LANG_JS["Max value"] = '<?php echo addslashes(_("Max value")); ?>';
 LANG_JS["Max value to show"] = '<?php echo addslashes(_("Max value to show")); ?>';
 LANG_JS["Num Graduations"] = '<?php echo addslashes(_("Num Graduations")); ?>';
 LANG_JS["Offset"] = '<?php echo addslashes(_("Offset")); ?>';
 LANG_JS["Scale"] = '<?php echo addslashes(_("Scale")); ?>';
+LANG_JS["Scale applied to value"] = '<?php echo addslashes(_("Scale applied to value")); ?>';
 LANG_JS["Should the graduations be shown"] = '<?php echo addslashes(_("Should the graduations be shown")); ?>';
 LANG_JS["Static offset. Subtracted from value before computing position (default 0)"] = '<?php echo addslashes(_("Static offset. Subtracted from value before computing position (default 0)")); ?>';
 LANG_JS["Units"] = '<?php echo addslashes(_("Units")); ?>';
+LANG_JS["Units to show"] = '<?php echo addslashes(_("Units to show")); ?>';
 LANG_JS["Unit type to show after value. Ex: <br>\"{Reading}{unit-string}\""] = '<?php echo addslashes(_("Unit type to show after value. Ex: <br>\"{Reading}{unit-string}\"")); ?>';
 LANG_JS["Value is multiplied by scale before display. Defaults to 1"] = '<?php echo addslashes(_("Value is multiplied by scale before display. Defaults to 1")); ?>';
 
@@ -95,6 +105,21 @@ LANG_JS["Type to show"] = '<?php echo addslashes(_("Type to show")); ?>';
 LANG_JS["Units"] = '<?php echo addslashes(_("Units")); ?>';
 LANG_JS["Units to show"] = '<?php echo addslashes(_("Units to show")); ?>';
 LANG_JS["Value is multiplied by scale before display"] = '<?php echo addslashes(_("Value is multiplied by scale before display")); ?>';
+// Options for the type combobox
+LANG_JS["Light <-> dark green, Zero at left"]   = '<?php echo addslashes(_("Light <-> dark green, Zero at left")); ?>';
+LANG_JS["Red <-> Green, Zero at center"]        = '<?php echo addslashes(_("Red <-> Green, Zero at center")); ?>';
+LANG_JS["Green <-> Red, Zero at left"]          = '<?php echo addslashes(_("Green <-> Red, Zero at left")); ?>';
+LANG_JS["Green <-> Red, Zero at center"]        = '<?php echo addslashes(_("Green <-> Red, Zero at center")); ?>';
+LANG_JS["Red <-> Green, Zero at left"]          = '<?php echo addslashes(_("Red <-> Green, Zero at left")); ?>';
+LANG_JS["Red <-> Green, Zero at center"]        = '<?php echo addslashes(_("Red <-> Green, Zero at center")); ?>';
+LANG_JS["Green center <-> orange edges, Zero at center"] = '<?php echo addslashes(_("Green center <-> orange edges, Zero at center")); ?>';
+LANG_JS["Light <-> Dark blue, Zero at left"]    = '<?php echo addslashes(_("Light <-> Dark blue, Zero at left")); ?>';
+LANG_JS["Light blue <-> Red, Zero at mid-left"] = '<?php echo addslashes(_("Light blue <-> Red, Zero at mid-left")); ?>';
+LANG_JS["Red <-> Dark Red, Zero at left"]       = '<?php echo addslashes(_("Red <-> Dark Red, Zero at left")); ?>';
+LANG_JS["Black <-> White, Zero at left"]        = '<?php echo addslashes(_("Black <-> White, Zero at left")); ?>';
+LANG_JS["Blue <-> Red, Zero at upper-left"]     = '<?php echo addslashes(_("Blue <-> Red, Zero at upper-left")); ?>';
+LANG_JS["Yes"] = '<?php echo addslashes(_("Yes")); ?>';
+LANG_JS["No"]  = '<?php echo addslashes(_("No")); ?>';
 
 // feedvalue_render.js
 LANG_JS["Decimals"] = '<?php echo addslashes(_("Decimals")); ?>';
