@@ -19,10 +19,10 @@
         <p><?php echo _('Maybe you would like to add your first dashboard using the button bellow.') ?></p>
     </div>
 
-    <div id="table"><div align='center'>loading...</div></div>
+    <div id="table"><div align='center'><?php echo _('loading...'); ?></div></div>
 
     <div id="bottomtoolbar" class="hide"><hr>
-        <button id="addnewdashboard" class="btn btn-small"><i class="icon-plus-sign" ></i>&nbsp;<?php echo _("New"); ?></button>
+        <button id="addnewdashboard" class="btn btn-small"><i class="icon-plus-sign" ></i>&nbsp;<?php echo _("New Dashboard"); ?></button>
     </div>
 </div>
 
