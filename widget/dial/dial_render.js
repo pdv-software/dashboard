@@ -38,23 +38,23 @@ function dial_widgetlist(){
   };
 
   var typeDropBoxOptions = [        // Options for the type combobox. Each item is [typeID, "description"]
-          [0,    "Light <-> dark green, Zero at left"],
-          [1,    "Red <-> Green, Zero at center"],
-          [2,    "Green <-> Red, Zero at left"],
-          [3,    "Green <-> Red, Zero at center"],
-          [4,    "Red <-> Green, Zero at left"],
-          [5,    "Red <-> Green, Zero at center"],
-          [6,    "Green center <-> orange edges, Zero at center "],
-          [7,    "Light <-> Dark blue, Zero at left"],
-          [8,    "Light blue <-> Red, Zero at mid-left"],
-          [9,    "Red <-> Dark Red, Zero at left"],
-          [10,   "Black <-> White, Zero at left"],
-          [11,   "Blue <-> Red, Zero at upper-left"]
+          [0,    _Tr("Light <-> dark green, Zero at left")],
+          [1,    _Tr("Red <-> Green, Zero at center")],
+          [2,    _Tr("Green <-> Red, Zero at left")],
+          [3,    _Tr("Green <-> Red, Zero at center")],
+          [4,    _Tr("Red <-> Green, Zero at left")],
+          [5,    _Tr("Red <-> Green, Zero at center")],
+          [6,    _Tr("Green center <-> orange edges, Zero at center")],
+          [7,    _Tr("Light <-> Dark blue, Zero at left")],
+          [8,    _Tr("Light blue <-> Red, Zero at mid-left")],
+          [9,    _Tr("Red <-> Dark Red, Zero at left")],
+          [10,   _Tr("Black <-> White, Zero at left")],
+          [11,   _Tr("Blue <-> Red, Zero at upper-left")]
         ];
 
   var graduationDropBoxOptions = [
-          [1, "Yes"],
-          [0, "No"]
+          [1, _Tr("Yes")],
+          [0, _Tr("No") ]
         ]
 
   addOption(widgets["dial"], "feedid",      "feedid",  _Tr("Feed"),        _Tr("Feed value"),                                                            []);
