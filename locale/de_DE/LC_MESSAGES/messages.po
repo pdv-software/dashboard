@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: emoncms3\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-02-12 21:34+0100\n"
-"PO-Revision-Date: 2017-02-12 21:37+0100\n"
+"POT-Creation-Date: 2017-02-12 22:16+0100\n"
+"PO-Revision-Date: 2017-02-12 22:16+0100\n"
 "Last-Translator: Frank Dille\n"
 "Language-Team: @sumpfing <anne@sumpfing.de>\n"
 "Language: de_DE\n"
@@ -206,7 +206,7 @@ msgstr "Bearbeiten"
 msgid "Delete"
 msgstr "Löschen"
 
-#: ../../../Views/dashboard_list.php:67
+#: ../../../Views/dashboard_list.php:67 ../../../Views/dashboard_view.php:25
 msgid "edit Dashboard"
 msgstr "Dashboard bearbeiten"
 
