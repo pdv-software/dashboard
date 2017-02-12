@@ -61,11 +61,11 @@
     'published':{'title':"<?php echo _('Published'); ?>", 'type':"icon", 'trueicon':"icon-ok", 'falseicon':"icon-remove"},
 
     // Actions
-    'clone-action':{'title':'', 'type':"iconbasic", 'icon':'icon-random'},
-    'edit-action':{'title':'', 'type':"edit"},
-    'delete-action':{'title':'', 'type':"delete"},
-    'draw-action':{'title':'', 'type':"iconlink", 'icon':"icon-edit", 'link':path+"dashboard/edit?id="},
-    'view-action':{'title':'', 'type':"iconlink", 'link':path+"dashboard/view?id="}
+    'clone-action':{'title':'', 'type':"iconbasic", 'icon':'icon-random', 'tooltip':"<?php echo _('Clone'); ?>"},
+    'edit-action':{'title':'', 'type':"edit", 'tooltip':"<?php echo _('Edit'); ?>"},
+    'delete-action':{'title':'', 'type':"delete", 'tooltip':"<?php echo _('Delete'); ?>"},
+    'draw-action':{'title':'', 'type':"iconlink", 'icon':"icon-edit", 'link':path+"dashboard/edit?id=", 'tooltip':"<?php echo _('edit Dashboard'); ?>"},
+    'view-action':{'title':'', 'type':"iconlink", 'link':path+"dashboard/view?id=", 'tooltip':"<?php echo _('View'); ?>"}
   }
 
   table.deletedata = false;

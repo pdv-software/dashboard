@@ -27,15 +27,23 @@ function _Tr(key)
 // START AUTO GENERATED
 
 // designer.js
+LANG_JS["Add a "] = '<?php echo addslashes(_("Add a ")); ?>';
 LANG_JS["Changed, press to save"] = '<?php echo addslashes(_("Changed, press to save")); ?>';
 LANG_JS["Choose height unit"] = '<?php echo addslashes(_("Choose height unit")); ?>';
 LANG_JS["Choose width unit"] = '<?php echo addslashes(_("Choose width unit")); ?>';
+LANG_JS[" element to the dashboard"] = '<?php echo addslashes(_(" element to the dashboard")); ?>';
 LANG_JS["Height"] = '<?php echo addslashes(_("Height")); ?>';
 LANG_JS["Off"] = '<?php echo addslashes(_("Off")); ?>';
 LANG_JS["On"] = '<?php echo addslashes(_("On")); ?>';
 LANG_JS["Percentage"] = '<?php echo addslashes(_("Percentage")); ?>';
 LANG_JS["Pixels"] = '<?php echo addslashes(_("Pixels")); ?>';
 LANG_JS["Width"] = '<?php echo addslashes(_("Width")); ?>';
+
+// widgetlist.js
+LANG_JS["Heading"] = '<?php echo addslashes(_("Heading")); ?>';
+LANG_JS["html"] = '<?php echo addslashes(_("html")); ?>';
+LANG_JS["Html code to show"] = '<?php echo addslashes(_("Html code to show")); ?>';
+LANG_JS["Some text"] = '<?php echo addslashes(_("Some text")); ?>';
 
 // bar_render.js
 LANG_JS["Colour"] = '<?php echo addslashes(_("Colour")); ?>';
